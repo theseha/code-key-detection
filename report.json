@@ -1,0 +1,12 @@
+{
+  "issues": [
+    {
+      "description": "Potential sensitive data detected by pattern [Google API Key]. Review and remove hardcoded secrets/PII. (LLM fallback)",
+      "data_type": "API Key",
+      "filename": "1_gandalf.py",
+      "line_number": 17,
+      "file_path": "1_gandalf.py",
+      "resolution": "Remove hardcoded values; rotate exposed credentials; use environment variables or Azure Key Vault."
+    }
+  ]
+}
