@@ -4,6 +4,7 @@
 
 ## 개요
 - GitHub 리포지토리를 **clone** 또는 **로컬 경로**에서 읽어 `.py` 파일을 스캔
+- 이 프로젝트는 공개/사내 GitHub 리포지토리를 자동으로 클론하거나 로컬 경로를 받아, 리포지토리 내 .py 파일에서 하드코딩된 API 키, 토큰, 자격증명, 개인정보(PII) 등을 탐지하고 JSON 보고서로 정리하는 스캐너
 - **정규식 기반 1차 탐지** 후, **gpt-4o**로 위험 유형 분류 / 요약 / 해결방안 제안
 - 결과를 JSON 파일로 정리:
   - `description`, `data_type`, `filename`, `line_number`, `file_path`, `resolution`
